@@ -2,16 +2,6 @@
 $repoOwner = "jelpsIT"
 $repoName = "HWID_Intune"
 
-$kda = ""
-$var1 = "hYzf" 
-$tar1 = "4D1f"
-$var2 = "Vegf"
-$tar2 = "BRVbF"
-$varb1= "jpoNz"
-$varb32 = "oGfjlxf"
-$hashtar2 = "9HMpITP"
-$intial1 = "ghp_"
-$kda = "$intial1$hashtar2$varb32$varb1$tar2$var2$tar1$var1"
 
 # Generate CSV file using Get-WindowsAutoPilotInfo
 $scriptDir = "C:\HWID"
