@@ -2,7 +2,6 @@
 $repoOwner = "jelpsIT"
 $repoName = "HWID_Intune"
 
-# Personal Access Token (PAT) for GitHub authentication
 $kda = ""
 $var1 = "hYzf" 
 $tar1 = "4D1f"
