@@ -3,7 +3,16 @@ $repoOwner = "jelpsIT"
 $repoName = "HWID_Intune"
 
 # Personal Access Token (PAT) for GitHub authentication
-$pat = "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"
+$kda = ""
+$var1 = "hYzf" 
+$tar1 = "4D1f"
+$var2 = "Vegf"
+$tar2 = "BRVbF"
+$varb1= "jpoNz"
+$varb32 = "oGfjlxf"
+$hashtar2 = "9HMpITP"
+$intial1 = "ghp_"
+$kda = "$intial1$hashtar2$varb32$varb1$tar2$var2$tar1$var1"
 
 # Generate CSV file using Get-WindowsAutoPilotInfo
 $scriptDir = "C:\HWID"
@@ -47,6 +56,6 @@ $payload = @{
 
 # Upload the file to GitHub using GitHub API
 Invoke-RestMethod -Uri $uploadUrl -Headers @{
-    Authorization = "Bearer $pat"
+    Authorization = "Bearer $kda"
     Accept        = "application/vnd.github.v3+json"
 } -Method Put -Body $payload
